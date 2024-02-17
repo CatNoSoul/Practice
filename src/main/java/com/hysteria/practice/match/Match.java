@@ -79,7 +79,7 @@ public abstract class Match {
 	 * @param arena {@link Arena} The arena that will be used in the match
 	 */
 
-	public Match(com.hysteria.practice.player.queue.Queue queue, Kit kit, Arena arena, boolean ranked) {
+	protected Match(com.hysteria.practice.player.queue.Queue queue, Kit kit, Arena arena, boolean ranked) {
 		this.queue = queue;
 		this.kit = kit;
 		this.arena = arena;

@@ -9,7 +9,7 @@ public abstract class AbstractConfigurationFile{
     private final JavaPlugin plugin;
     private final String name;
     
-    public AbstractConfigurationFile(final JavaPlugin plugin, final String name) {
+    protected AbstractConfigurationFile(final JavaPlugin plugin, final String name) {
         this.plugin = plugin;
         this.name = name;
     }

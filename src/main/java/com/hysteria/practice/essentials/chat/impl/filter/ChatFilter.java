@@ -8,9 +8,9 @@ public abstract class ChatFilter implements Listener {
 
 	private String command;
 
-	public ChatFilter() {}
+	protected ChatFilter() {}
 
-	public ChatFilter(String command) {
+	protected ChatFilter(String command) {
 		this.command = command;
 	}
 

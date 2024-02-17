@@ -25,7 +25,7 @@ public abstract class EventGameMap {
 	@Getter protected final String mapName;
 	@Getter @Setter protected Location spectatorPoint;
 
-	public EventGameMap(String mapName) {
+	protected EventGameMap(String mapName) {
 		this.mapName = mapName;
 	}
 
