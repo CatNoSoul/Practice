@@ -2,7 +2,7 @@ package com.hysteria.practice.api.command;
 
 public abstract class BaseCommand {
 
-    public BaseCommand() {
+    protected BaseCommand() {
         CommandManager.getInstance().registerCommands(this, null);
     }
 

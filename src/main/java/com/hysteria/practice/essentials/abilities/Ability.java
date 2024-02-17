@@ -27,7 +27,7 @@ public abstract class Ability implements Listener {
     private final String ability;
     private Table<String, UUID, Long> cooldown = HashBasedTable.create();
 
-    public Ability(String ability) {
+    protected Ability(String ability) {
         this.ability = ability;
         abilities.add(this);
     }

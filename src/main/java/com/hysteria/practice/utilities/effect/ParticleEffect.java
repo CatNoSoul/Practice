@@ -948,7 +948,7 @@ public enum ParticleEffect {
 		 * @param data Data value of the item/block
 		 */
 		@SuppressWarnings("deprecation")
-		public ParticleData(Material material, byte data) {
+		protected ParticleData(Material material, byte data) {
 			this.material = material;
 			this.data = data;
 			this.packetData = new int[] { material.getId(), data };
