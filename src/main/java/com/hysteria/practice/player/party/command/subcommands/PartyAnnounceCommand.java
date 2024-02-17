@@ -26,7 +26,6 @@ import java.util.List;
 
 public class PartyAnnounceCommand extends BaseCommand {
 
-    private boolean sendMessage;
 
     @Command(name = "party.announce", aliases = {"p.announce"}, permission = "hypractice.party.announce")
     @Override

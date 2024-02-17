@@ -42,7 +42,6 @@ public class BukkitReflection {
 	private static final Class SPIGOT_CONFIG_CLASS;
 	private static final Field SPIGOT_CONFIG_BUNGEE_FIELD;
 
-	private final Field MinecraftServer_recentTickTimes_field = needField(MinecraftServer.class, "h");
 
 	static {
 		try {
